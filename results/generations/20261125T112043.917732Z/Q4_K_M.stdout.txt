@@ -1,0 +1,70 @@
+
+
+Loading model... 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b12733-de3069728
+model      : /mnt/c/Users/Knohhonk/Desktop/quantization_demo/models/Qwen2.5-1.5B-Instruct-Q4_K_M.gguf
+ftype      : Q4_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> Write a Python function for binary search. Include a short example.
+Certainly! Below is a Python function for binary search along with a short example:
+
+```python
+def binary_search(arr, target):
+    """
+    Perform binary search on a sorted list to find the index of a target value.
+
+    Parameters:
+    arr (list): A sorted list of elements.
+    target: The value to search for.
+
+    Returns:
+    int: The index of the target if found, otherwise -1.
+    """
+    left, right = 0, len(arr) - 1
+
+    while left <= right:
+        mid = (left + right) // 2
+        mid_value = arr[mid]
+
+        if mid_value == target:
+            return mid
+        elif mid_value < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+
+    return -1
+
+# Example usage:
+sorted_list = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+target_value = 7
+
+result = binary_search(sorted_list, target_value)
+if result != -1:
+    print(f"Target found at index: {result}")
+else:
+    print("Target not found in the
+
+[ Prompt: 123.7 t/s | Generation: 31.4 t/s ]
+
+
+Exiting...

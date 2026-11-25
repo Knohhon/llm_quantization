@@ -1,0 +1,79 @@
+{
+  "experiment": "size",
+  "created_utc": "20261125T105423.739732Z",
+  "quants": [
+    "F16",
+    "Q8_0",
+    "Q6_K",
+    "Q4_K_M",
+    "Q2_K"
+  ],
+  "fingerprint": "5be1eb1618cdaffcaeeda3318b05a1647745865155e93ddde8fdd80a80a870ce",
+  "signature": {
+    "settings": {
+      "THREADS": "4",
+      "CONTEXT_SIZE": "2048",
+      "PROMPT_TOKENS": "512",
+      "GENERATION_TOKENS": "128",
+      "MAX_NEW_TOKENS": "256",
+      "REPETITIONS": "3",
+      "PPL_CONTEXT_SIZE": "512",
+      "SEED": "42",
+      "KV_CACHE_TYPE": "f16",
+      "LOAD_MODE": "mmap",
+      "PPL_CHUNKS": "-1"
+    },
+    "cpu": "Architecture:                         x86_64\nCPU(s):                               12\nVendor ID:                            GenuineIntel\nModel name:                           12th Gen Intel(R) Core(TM) i5-12450H\nSocket(s):                            1\nFlags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize flush_l1d arch_capabilities\nHypervisor vendor:                    Microsoft",
+    "platform": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "llama": {
+      "llama-cli": {
+        "version": "version: 1.0.0-dev (build 12733, commit de3069728)\nbuilt with GNU 13.3.0 for Linux x86_64",
+        "sha256": "30054baaa3f6a521755464d7f2e8d6696234a7d96d1ad4b36d6d4ab32a252f95"
+      },
+      "llama-bench": {
+        "version": "version: 1.0.0-dev (build 12733, commit de3069728)\nbuilt with GNU 13.3.0 for Linux x86_64",
+        "sha256": "93a4877d2777832777545047a3e68be895708c70e402c0c8538849be3c8acc4d"
+      },
+      "llama-perplexity": {
+        "version": "version: 1.0.0-dev (build 12733, commit de3069728)\nbuilt with GNU 13.3.0 for Linux x86_64",
+        "sha256": "7955e57093983a9a3252448a7229f93d0bcbb09c69ecdb8086f445daa4629da1"
+      }
+    },
+    "models": {
+      "repository": "bartowski/Qwen2.5-1.5B-Instruct-GGUF",
+      "revision": "9eadc66189c7641e1ddd226b8267a9119b2ce2d4",
+      "files": {
+        "F16": {
+          "name": "Qwen2.5-1.5B-Instruct-f16.gguf",
+          "size": 3093669376,
+          "sha256": "b6eaec3509f1d0373d1f4802654c4a7bfcde0768645d2d45e8885f6922b428ee"
+        },
+        "Q8_0": {
+          "name": "Qwen2.5-1.5B-Instruct-Q8_0.gguf",
+          "size": 1646573312,
+          "sha256": "7185d306cf45956c8c017cd0d3b05ecc6bc18b3ea8eb5c240dce40e87563db7f"
+        },
+        "Q6_K": {
+          "name": "Qwen2.5-1.5B-Instruct-Q6_K.gguf",
+          "size": 1272740096,
+          "sha256": "1b01b4ea4ccdd5aa6a5972790002e120a5d500a5175be571114d642a8db4d14e"
+        },
+        "Q4_K_M": {
+          "name": "Qwen2.5-1.5B-Instruct-Q4_K_M.gguf",
+          "size": 986048768,
+          "sha256": "1adf0b11065d8ad2e8123ea110d1ec956dab4ab038eab665614adba04b6c3370"
+        },
+        "Q2_K": {
+          "name": "Qwen2.5-1.5B-Instruct-Q2_K.gguf",
+          "size": 676304992,
+          "sha256": "a8880f0de2348db67d00519ef7f4b40326ef67012bf5f2e90bd1d47474e2355c"
+        }
+      }
+    },
+    "corpus_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  "lscpu": "Architecture:                         x86_64\nCPU op-mode(s):                       32-bit, 64-bit\nAddress sizes:                        39 bits physical, 48 bits virtual\nByte Order:                           Little Endian\nCPU(s):                               12\nOn-line CPU(s) list:                  0-11\nVendor ID:                            GenuineIntel\nModel name:                           12th Gen Intel(R) Core(TM) i5-12450H\nCPU family:                           6\nModel:                                154\nThread(s) per core:                   2\nCore(s) per socket:                   6\nSocket(s):                            1\nStepping:                             3\nBogoMIPS:                             4992.01\nFlags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize flush_l1d arch_capabilities\nVirtualization:                       VT-x\nHypervisor vendor:                    Microsoft\nVirtualization type:                  full\nL1d cache:                            288 KiB (6 instances)\nL1i cache:                            192 KiB (6 instances)\nL2 cache:                             7.5 MiB (6 instances)\nL3 cache:                             12 MiB (1 instance)\nVulnerability Gather data sampling:   Not affected\nVulnerability Itlb multihit:          Not affected\nVulnerability L1tf:                   Not affected\nVulnerability Mds:                    Not affected\nVulnerability Meltdown:               Not affected\nVulnerability Mmio stale data:        Not affected\nVulnerability Reg file data sampling: Vulnerable: No microcode\nVulnerability Retbleed:               Mitigation; Enhanced IBRS\nVulnerability Spec rstack overflow:   Not affected\nVulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl and seccomp\nVulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:             Mitigation; Enhanced / Automatic IBRS; IBPB conditional; RSB filling; PBRSB-eIBRS SW sequence; BHI BHI_DIS_S\nVulnerability Srbds:                  Not affected\nVulnerability Tsx async abort:        Not affected\n",
+  "commands": [],
+  "raw_directory": "results/raw/size/20261125T105423.739732Z",
+  "results_sha256": "43133cd3137cd5464e23f376444856165d7d426c71df41ca6425f6d76bb97748"
+}

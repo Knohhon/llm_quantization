@@ -1,0 +1,11 @@
+{
+  "repository": "bartowski/Qwen2.5-1.5B-Instruct-GGUF",
+  "revision": "9eadc66189c7641e1ddd226b8267a9119b2ce2d4",
+  "files": {
+    "F16": {"name": "Qwen2.5-1.5B-Instruct-f16.gguf", "size": 3093669376, "sha256": "b6eaec3509f1d0373d1f4802654c4a7bfcde0768645d2d45e8885f6922b428ee"},
+    "Q8_0": {"name": "Qwen2.5-1.5B-Instruct-Q8_0.gguf", "size": 1646573312, "sha256": "7185d306cf45956c8c017cd0d3b05ecc6bc18b3ea8eb5c240dce40e87563db7f"},
+    "Q6_K": {"name": "Qwen2.5-1.5B-Instruct-Q6_K.gguf", "size": 1272740096, "sha256": "1b01b4ea4ccdd5aa6a5972790002e120a5d500a5175be571114d642a8db4d14e"},
+    "Q4_K_M": {"name": "Qwen2.5-1.5B-Instruct-Q4_K_M.gguf", "size": 986048768, "sha256": "1adf0b11065d8ad2e8123ea110d1ec956dab4ab038eab665614adba04b6c3370"},
+    "Q2_K": {"name": "Qwen2.5-1.5B-Instruct-Q2_K.gguf", "size": 676304992, "sha256": "a8880f0de2348db67d00519ef7f4b40326ef67012bf5f2e90bd1d47474e2355c"}
+  }
+}

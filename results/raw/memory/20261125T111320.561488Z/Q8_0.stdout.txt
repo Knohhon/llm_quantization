@@ -1,0 +1,44 @@
+
+
+Loading model... 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b12733-de3069728
+model      : /mnt/c/Users/Knohhonk/Desktop/quantization_demo/models/Qwen2.5-1.5B-Instruct-Q8_0.gguf
+ftype      : Q8_0
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> Write a Python function for binary search. Include a short example.
+Certainly! Binary search is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing in half the portion of the list that could contain the item, until you've narrowed down the possible locations to just one.
+
+Here's a Python function for binary search:
+
+```python
+def binary_search(arr, target):
+    """
+    Perform binary search on a sorted list to find the index of the target value.
+    
+    :param arr: List of elements sorted in ascending order.
+    :param target: The value to search for.
+    :return: The index of the target if found, otherwise -1.
+
+[ Prompt: 93.6 t/s | Generation: 22.7 t/s ]
+
+
+Exiting...

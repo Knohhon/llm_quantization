@@ -1,0 +1,50 @@
+
+
+Loading model... 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b12733-de3069728
+model      : /mnt/c/Users/Knohhonk/Desktop/quantization_demo/models/Qwen2.5-1.5B-Instruct-Q2_K.gguf
+ftype      : Q2_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> Write a Python function for binary search. Include a short example.
+Certainly! Below is a Python function for implementing binary search. Binary search is a search algorithm that finds a specific element in a sorted list by repeatedly dividing the search interval in half.
+
+### Example:
+
+```python
+def binary_search(arr, target):
+    """
+    Perform binary search on a sorted list.
+    """
+    low, high = 0, len(arr) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high
+
+[ Prompt: 77.4 t/s | Generation: 42.4 t/s ]
+
+
+Exiting...

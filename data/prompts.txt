@@ -1,0 +1,14 @@
+# Python
+Write a Python function binary_search(items, target) for a sorted list of integers. Return the index or -1. Include two assertions, one for a missing value.
+
+# Mathematics
+A train travels 120 km at 60 km/h and then 120 km at 80 km/h. What is its average speed over the entire journey? Show the calculation.
+
+# Logic
+Three boxes are labelled Apples, Oranges, and Mixed. Every label is wrong. You may draw one fruit from one box without looking inside. Which box should you choose, and how can you determine all three contents?
+
+# JSON extraction
+Extract the name, date and attendee count from this text. Return only a JSON object with keys name, date, attendees. Text: The Orion workshop will take place on 2025-03-14 with 27 attendees. The previous workshop had 19 attendees.
+
+# Instruction following
+Explain why leaves change color in autumn in exactly three numbered sentences. Use plain English. Each sentence must contain at most twelve words.

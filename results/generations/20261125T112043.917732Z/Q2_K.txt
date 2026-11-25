@@ -1,0 +1,64 @@
+
+
+Loading model... 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b12733-de3069728
+model      : /mnt/c/Users/Knohhonk/Desktop/quantization_demo/models/Qwen2.5-1.5B-Instruct-Q2_K.gguf
+ftype      : Q2_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> Write a Python function for binary search. Include a short example.
+Certainly! Below is a Python function for implementing binary search. Binary search is a search algorithm that finds a specific element in a sorted list by repeatedly dividing the search interval in half.
+
+### Example:
+
+```python
+def binary_search(arr, target):
+    """
+    Perform binary search on a sorted list.
+    """
+    low, high = 0, len(arr) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return None
+
+# Example usage
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+target = 5
+result = binary_search(arr, target)
+print(result)  # Output: 4
+```
+
+### Explanation:
+
+- The function `binary_search` takes two arguments: an array `arr` and a target value `target`.
+- The function performs a binary search on the sorted list `arr`.
+- It initializes two pointers, `low` and `high`, to represent the
+
+[ Prompt: 90.5 t/s | Generation: 40.6 t/s ]
+
+
+Exiting...

@@ -1,0 +1,6 @@
+quant,decode_ts,response_file
+F16,13.4,results/generations/20261125T112043.917732Z/F16.txt
+Q8_0,22.6,results/generations/20261125T112043.917732Z/Q8_0.txt
+Q6_K,27.5,results/generations/20261125T112043.917732Z/Q6_K.txt
+Q4_K_M,31.4,results/generations/20261125T112043.917732Z/Q4_K_M.txt
+Q2_K,40.6,results/generations/20261125T112043.917732Z/Q2_K.txt

@@ -1,0 +1,32 @@
+[
+  {
+    "script": "compare_size.sh",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Ошибка: /mnt/c/Users/Knohhonk/Desktop/quantization_demo/models/Qwen2.5-1.5B-Instruct-f16.gguf: нет модели ожидаемого размера. Запустите bash scripts/download.sh.\n"
+  },
+  {
+    "script": "benchmark.sh",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Ошибка: /mnt/c/Users/Knohhonk/Desktop/quantization_demo/models/Qwen2.5-1.5B-Instruct-f16.gguf: нет модели ожидаемого размера. Запустите bash scripts/download.sh.\n"
+  },
+  {
+    "script": "compare_memory.sh",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Ошибка: /mnt/c/Users/Knohhonk/Desktop/quantization_demo/models/Qwen2.5-1.5B-Instruct-f16.gguf: нет модели ожидаемого размера. Запустите bash scripts/download.sh.\n"
+  },
+  {
+    "script": "compare_generation.sh",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Ошибка: /mnt/c/Users/Knohhonk/Desktop/quantization_demo/models/Qwen2.5-1.5B-Instruct-f16.gguf: нет модели ожидаемого размера. Запустите bash scripts/download.sh.\n"
+  },
+  {
+    "script": "perplexity.sh",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Ошибка: /mnt/c/Users/Knohhonk/Desktop/quantization_demo/models/Qwen2.5-1.5B-Instruct-f16.gguf: нет модели ожидаемого размера. Запустите bash scripts/download.sh.\n"
+  }
+]

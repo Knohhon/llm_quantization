@@ -1,0 +1,23 @@
+	Command being timed: "/home/honk_ubuntu/llama.cpp/build/bin/llama-cli -m /mnt/c/Users/Knohhonk/Desktop/quantization_demo/models/Qwen2.5-1.5B-Instruct-Q2_K.gguf -ngl 0 -t 4 --device none -ctk f16 -ctv f16 --load-mode mmap --lazy-mode off --no-kv-offload --no-op-offload --offline -c 2048 -tb 4 -n 128 -p Write a Python function for binary search. Include a short example. --temp 0 --seed 42 --single-turn --simple-io --no-display-prompt --color off --chat-template chatml --show-timings --ignore-eos"
+	User time (seconds): 13.79
+	System time (seconds): 1.17
+	Percent of CPU this job got: 46%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:31.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 821628
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 12
+	Minor (reclaiming a frame) page faults: 30256
+	Voluntary context switches: 169644
+	Involuntary context switches: 32
+	Swaps: 0
+	File system inputs: 1320912
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
